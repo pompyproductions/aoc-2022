@@ -1,6 +1,5 @@
 # Advent of Code — 2022
 
-
 ## Notes
 
 ### Setting up dev environment
