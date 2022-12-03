@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..700;1,300..700&display=swap");
+/* this is used for document window resizing through JS */
+:root {
+  --doc-height: 100vh;
+}
+
+html {
+  height: 100vh; /* fallback */
+  height: var(--doc-height);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh; /* fallback */
+  height: var(--doc-height);
+  font-size: 100%;
+  overflow: inherit;
+}
+
+ul, ol, dl {
+  list-style: none;
+}
+
+:root {
+  --white: hsl(0, 58%, 95%);
+  --black: hsl(0, 0%, 7%);
+  --red-faded: rgba(161, 23, 60, 0.397);
+  --red: hsl(344deg 66% 37%);
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+}
+
+body {
+  font-family: "Rubik", monospace;
+  background-color: var(--black);
+  color: var(--white);
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+main {
+  display: grid;
+  gap: 0.6rem;
+  grid-auto-rows: min-content;
+  overflow-y: auto;
+  scrollbar-color: var(--white);
+  scrollbar-width: 4px;
+  padding-right: 6px;
+}
+
+header, footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: var(--red);
+}
+
+.card {
+  display: grid;
+  cursor: pointer;
+  background-color: var(--black);
+  border-radius: 1.2rem;
+  overflow: hidden;
+  gap: 2px;
+  grid-template-rows: repeat(3, 3rem);
+  grid-template-columns: 6rem 1fr;
+}
+.card > * {
+  background-color: hsl(195deg, 66%, 16%);
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.2s;
+}
+.card h2 {
+  grid-row: 1/span 2;
+  font-size: 4rem;
+  display: grid;
+  place-items: center;
+  font-weight: 400;
+}
+.card > p {
+  display: flex;
+  align-items: center;
+  padding: 0 0.6rem;
+}
+.card > p.title {
+  font-weight: 500;
+}
+.card div {
+  grid-row: 3;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0.6rem 0.3rem 0.6rem;
+  align-items: center;
+  color: var(--white);
+}
+.card:hover > * {
+  background-color: hsl(195deg, 66%, 20%);
+}
+.card.disabled {
+  cursor: default;
+  color: var(--black);
+}
+.card.disabled > * {
+  background-color: rgb(37, 37, 37);
+}

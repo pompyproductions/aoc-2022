@@ -1,0 +1,47 @@
+@use "mixins" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+    --white: hsl(0, 58%, 95%);
+    --black: hsl(0, 0%, 7%);
+    --red-faded: rgba(161, 23, 60, 0.397);
+    --red: hsl(344deg 66% 37%);
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    &-thumb {
+        background-color: var(--white);
+    }
+}
+
+body {
+    font-family: "Rubik", monospace;
+    background-color: var(--black);
+    color: var(--white);
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+main {
+    display: grid;
+    gap: .6rem;
+    grid-auto-rows: min-content;
+    overflow-y: auto;
+    scrollbar-color: var(--white);
+    scrollbar-width: 4px;
+    padding-right: 6px;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: var(--red);
+}

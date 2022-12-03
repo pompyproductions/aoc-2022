@@ -1,0 +1,29 @@
+/* this is used for document window resizing through JS */
+:root {
+    --doc-height: 100vh;
+}
+
+html {
+    height: 100vh; /* fallback */
+    height: var(--doc-height);
+    box-sizing: border-box;
+    overflow: hidden;
+} 
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* fallback */
+    height: var(--doc-height);
+
+    font-size: 100%;
+    overflow: inherit;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
