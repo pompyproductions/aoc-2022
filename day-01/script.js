@@ -1,9 +1,12 @@
-// let input;
+let input;
 
 async function solve() {
     // fetch question
-    const response = await fetch('./input.json');
-    const input = await response.json(); 
+    if (!input) {
+        const response = await fetch('./input.json');
+        console.log("fetching input");
+        input = await response.json(); 
+    }
 
     // solve question (quick way)
     let bestElf = {
