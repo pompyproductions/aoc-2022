@@ -1,6 +1,8 @@
 let input;
 
-async function solve() {
+const sumAll = arr => arr.reduce((acc, val) => acc + val);
+
+async function solve(elves=1) {
     // fetch question
     if (!input) {
         const response = await fetch('./input.json');
@@ -8,25 +10,44 @@ async function solve() {
         input = await response.json(); 
     }
 
-    // solve question (quick way)
-    let bestElf = {
-        index: -1,
-        totalCalories: 0
-    }
-    for (let i = 0; i < input.length; i++) {
-        sum = input[i].reduce((acc, val) => acc + val);
-        if (sum > bestElf.totalCalories) {
-            bestElf.index = i;
-            bestElf.totalCalories = sum;
+    let bestElves = [
+        {
+            index: 0, 
+            totalCalories: sumAll(input[0])
+        }
+    ];
+
+    for (let i = 1; i < input.length; i++) {
+        sum = sumAll(input[i]);
+        if (sum > bestElves[bestElves.length-1].totalCalories) {
+            bestElves.push({index: i, totalCalories: sum});
+            bestElves.sort((a, b) => b.totalCalories - a.totalCalories);
+            if (bestElves.length > elves) {
+                bestElves.pop();
+            }
         }
     }
-    console.log(bestElf);
+    solution = bestElves; // containing "elf objects"
+    console.log(solution.reduce((acc, val) => acc + val.totalCalories, 0));
 }
 
-solve();
+async function sortAll() {
+    if (!input) {
+        const response = await fetch('./input.json');
+        console.log("fetching input");
+        input = await response.json(); 
+    }
 
-// await loadInput();
-// await loadInput();
-// fetch('./input.json')
-//     .then((response) => response.json())
-//     .then(json => console.log(json));
+    input = input
+        .map(elf => sumAll(elf))
+        .sort((a, b) => b - a);
+    let total = 0;
+    for (let i = 0; i < 3; i++) {
+        total += input[i];
+    }
+    console.log(input);
+    console.log(total);
+}
+
+// sortAll();
+solve(3);
