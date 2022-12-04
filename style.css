@@ -122,3 +122,8 @@ a {
 .card.disabled > * {
   background-color: rgb(37, 37, 37);
 }
+
+.card-link {
+  color: var(--white);
+  text-decoration: none;
+}
