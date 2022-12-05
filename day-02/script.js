@@ -16,14 +16,13 @@ async function solve() {
     // fetch question
     if (!input) {
         const response = await fetch('./input.json');
-        console.log("fetching input");
         input = await response.json(); 
     }
     let sum = 0;
     for (let i = 0; i < input.length; i++) {
         sum += playRound(input[i]); // solution 1
     }
-    console.log("part 1:", sum)
+    console.log("Part 1:", sum)
 
     sum = 0;
     for (let i = 0; i < input.length; i++) {
@@ -32,6 +31,6 @@ async function solve() {
             predict(input[i])
         ])
     }
-    console.log("part 2:", sum)
+    console.log("Part 2:", sum)
 }
 solve();

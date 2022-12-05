@@ -6,7 +6,6 @@ async function solve(elves=1) {
     // fetch question
     if (!input) {
         const response = await fetch('./input.json');
-        console.log("fetching input");
         input = await response.json(); 
     }
 
@@ -28,7 +27,12 @@ async function solve(elves=1) {
         }
     }
     solution = bestElves; // containing "elf objects"
-    console.log(solution.reduce((acc, val) => acc + val.totalCalories, 0));
+    console.log(
+        elves > 1 
+            ? `Total of top ${elves}:`
+            : `Highest total calories:`,
+        solution.reduce((acc, val) => acc + val.totalCalories, 0)
+        );
 }
 
 async function sortAll() {
@@ -49,4 +53,6 @@ async function sortAll() {
     console.log(total);
 }
 
+solve();
 solve(3);
+solve(10);

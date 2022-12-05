@@ -30,7 +30,6 @@ async function solve() {
     // fetch question
     if (!input) {
         const response = await fetch('./input.json');
-        console.log("fetching input");
         input = await response.json(); 
     }
 
@@ -48,7 +47,7 @@ async function solve() {
     duplicateSet.forEach(item => {
         sum += getPriority(item)
     })
-    console.log(sum);
+    console.log("Part 1, first interpretation:", sum);
 
     // part 1 attempt 2:
     sum = 0;
@@ -56,7 +55,7 @@ async function solve() {
         sum += getDuplicates(input[i])
             .reduce((acc, char) => acc + getPriority(char), 0);
     }
-    console.log(sum);
+    console.log("Part 1, correct answer:", sum);
 
     // part 2:
     sum = 0;
@@ -68,7 +67,7 @@ async function solve() {
         ));
         i += 2;
     }
-    console.log(sum);
+    console.log("Part 2:", sum);
 }
 
 // demonstration (uncomment it!)
