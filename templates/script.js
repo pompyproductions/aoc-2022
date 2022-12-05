@@ -3,7 +3,7 @@ let input;
 // helpers
 const sumAll = arr => arr.reduce((acc, val) => acc + val);
 
-async function getInput() {
+async function solve() {
     // fetch question
     if (!input) {
         const response = await fetch('./input.json');
@@ -12,9 +12,4 @@ async function getInput() {
     }
 }
 
-async function solve() {
-    console.log(input);
-}
-
-getInput();
 solve();

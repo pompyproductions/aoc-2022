@@ -31,7 +31,6 @@ async function solve() {
             input[i][0],
             predict(input[i])
         ])
-        // console.log(predict(input[i]));
     }
     console.log("part 2:", sum)
 }

@@ -49,5 +49,4 @@ async function sortAll() {
     console.log(total);
 }
 
-// sortAll();
 solve(3);

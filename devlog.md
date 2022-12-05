@@ -13,7 +13,9 @@ Content with the templates, I solved day 02, and thought to myself that I should
 
 ### December 03
 
-Now it's solving time — or is it? While mulling over how best to import the puzzle input into my website, I decided to parse the plain-text file into JSON using Python from the WSL terminal. It went well, meaning it _really is_ solving time! No, actually not; because now I ask myself how to read that file (no, not reaching for Node.js in the slightest inconvenience). Since I had to _request_ what I made available on GitHub pages, I realized I was already knee-deep in asynchronous territory — so I doubled down and started scouring all over the Internet for good study material on it (event loop, promises, async/await...). Tangent 02! I did end up solving the first part of the first puzzle, officially settling with a workflow.
+Now it's solving time — or is it? While mulling over how best to import the puzzle input into my website, I decided to parse the plain-text file into JSON using Python from the WSL terminal. It went well, meaning it _really is_ solving time! No, actually not; because now I ask myself how to read that file (no, not reaching for Node.js in the slightest inconvenience). Since I had to _request_ what I made available on GitHub pages, I realized I was already knee-deep in asynchronous territory — so I doubled down and started scouring all over the Internet for good study material on it (event loop, promises, async/await...). Tangent 02! 
+
+I did end up solving the first part of the first puzzle. The solution remembers the input (so that it doesn't have to fetch again, and browser console can reach it), and returns the "top X elf objects" where X can be changed to get as many as you need.
 
 
 ### December 02
@@ -27,6 +29,25 @@ While I originally meant to set up my dev environment and solve the first puzzle
 
 
 ## Tangents
+
+### Tangent 03: Intersections (Array and Set)
+
+```js
+// not an actual intersect: 
+// returns one of each repeated value, 
+// and duplicates are discarded
+function findCommonValues(...args) {
+    if (args.length === 1) {
+        return args[0];
+    }
+    const arrays = [...args];
+
+    return arrays.pop()
+        .filter(item => findCommonValues(...arrays).includes(item))
+        .filter((elem, i, curr) => curr.indexOf(elem) === i); // extra step to discard duplicates
+}
+```
+
 
 ### Tangent 02: The Event Loop
 

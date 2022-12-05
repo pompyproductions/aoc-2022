@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import os, sys, json, re
+import os, sys, json
 
 os.chdir(os.path.dirname(sys.argv[0]))
 
@@ -10,9 +10,10 @@ array = []
 i = 0
 
 for line in f:
+    line = line.strip()
     array.append([
-        ["A", "B", "C"].index(line[0]),
-        ["X", "Y", "Z"].index(line[2])
+        line[:int(len(line) / 2)],
+        line[int(len(line) / 2):]
     ])
 
 f.close()
