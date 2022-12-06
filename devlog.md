@@ -4,6 +4,8 @@ Taking notes for each day participating in the Advent of Code 2022. Since my goa
 
 ## Days
 
+### December 05
+
 ### December 04
 
 Yes, today I actually started by solving the puzzles. Day 01 part 2 was a breeze, and now it's time to solve day 02! Lazy as I am, I didn't want to copy files and edit them manually. A couple lines of python, and ta-da! Now I have template files which I can copy over by running a script I named "generator.py": `./generator.py 02` makes a new folder called day-02 and fills it with a nice starting point. 
@@ -30,7 +32,40 @@ While I originally meant to set up my dev environment and solve the first puzzle
 
 ## Tangents
 
+### Tangent 04: Parsing with Python
+
+```py
+# iterate until line is empty
+# or until you reach end of file
+# useful for files with different sections
+while (line.strip()): 
+    print(line)
+    line=f.readline()
+```
+
+```py
+# the "if" check makes sure all of the following commands work:
+# python3 ./parse.py
+# python3 parse.py
+# python3 day-05/parse.py
+if bool(os.path.dirname(sys.argv[0])):
+    os.chdir(os.path.dirname(sys.argv[0]))
+```
+
+```py
+# enum helps me iterate while keeping track of line number
+with open("input.txt", "r") as f:
+    for line_number, line in enumerate(f, 1):
+        if line_number < 9:
+            print("Line number: {}".format(line_number))
+            print("Content: {}".format(line))
+        else:
+            break
+```
+
 ### Tangent 03: Intersections (Array and Set)
+
+TBD.
 
 ```js
 // not an actual intersect: 
@@ -57,4 +92,8 @@ Content TBD.
 ### Tangent 01: Restyling my personal website
 
 Content TBD.
+
+Implemented 3-part grid that I replicated on the GitHub page for AoC2022.  
+Surprisingly easy scrollbar customization.  
+100vh problem solved with JS. Overkill? Unnecessary calculations for desktop, but blazingly fast and it's just a couple of lines of code.
 
