@@ -36,6 +36,9 @@ main {
     scrollbar-color: var(--white);
     scrollbar-width: 4px;
     padding-right: 6px;
+    &.day {
+        grid-template-columns: 1fr;
+    }
 }
 
 header, footer {
