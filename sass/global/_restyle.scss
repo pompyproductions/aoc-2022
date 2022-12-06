@@ -30,11 +30,15 @@ body {
 main {
     display: grid;
     gap: .6rem;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     grid-auto-rows: min-content;
     overflow-y: auto;
     scrollbar-color: var(--white);
     scrollbar-width: 4px;
     padding-right: 6px;
+    &.day {
+        grid-template-columns: 1fr;
+    }
 }
 
 header, footer {
