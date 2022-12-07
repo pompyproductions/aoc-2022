@@ -1,0 +1,2509 @@
+[
+    {
+        "command": "cd /"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir drblq",
+            "133789 fjf",
+            "dir jpfrhmw",
+            "dir jqfwd",
+            "dir ncgffsr",
+            "12962 ntnr.lrq",
+            "dir qnbq",
+            "dir rqdngnrq",
+            "dir shcvnqq",
+            "dir vsd",
+            "dir vtzvf"
+        ]
+    },
+    {
+        "command": "cd drblq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "133843 bglzqdd",
+            "dir brfnfhj",
+            "268201 fbqjmp.jzv",
+            "80676 shcvnqq"
+        ]
+    },
+    {
+        "command": "cd brfnfhj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "150447 jlcg.dsg",
+            "dir nhvgrzs"
+        ]
+    },
+    {
+        "command": "cd nhvgrzs"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "282889 jlcg.dsg",
+            "19004 ncgffsr.gwr",
+            "dir vbzr",
+            "6338 vpsgdph.gbh",
+            "dir wdcn"
+        ]
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "225101 fbqjmp",
+            "243277 vbzr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wdcn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "154089 dlmpbbf.psv"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd jpfrhmw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "87622 cffdsj.jzf",
+            "26165 qnbq.sbm",
+            "dir vbzr"
+        ]
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir blhstw",
+            "16919 nttftcts",
+            "dir rgdp",
+            "116477 shcvnqq",
+            "242592 tmjrnqbz.chq",
+            "dir vbzr",
+            "dir wmct"
+        ]
+    },
+    {
+        "command": "cd blhstw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "98023 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd rgdp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir gcb",
+            "141507 shcvnqq",
+            "dir ssvzm"
+        ]
+    },
+    {
+        "command": "cd gcb"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "189016 ncgffsr.rbq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ssvzm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "82667 shcvnqq.zjq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "120202 jlcg.dsg",
+            "86205 vbzr.jtr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wmct"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir fbsfcgph",
+            "155709 hpsftv",
+            "13636 lztgs",
+            "273353 ncgffsr.jsg",
+            "dir pvwhpfp"
+        ]
+    },
+    {
+        "command": "cd fbsfcgph"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "139944 ncgffsr.gpf"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd pvwhpfp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "111230 bscrjpzh.glp",
+            "dir dgjsddgq",
+            "37234 lwd",
+            "107139 lztgs",
+            "258111 mgtwwvwz",
+            "117638 qpdvnfb.gnf",
+            "dir szrplcdw",
+            "dir vzsl",
+            "dir wsmf"
+        ]
+    },
+    {
+        "command": "cd dgjsddgq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir qnbq"
+        ]
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "199119 jlcg.dsg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd szrplcdw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "122236 qclr.cpf",
+            "269638 qnbq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vzsl"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "233006 twpz.tdm"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wsmf"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir wcnptvtz"
+        ]
+    },
+    {
+        "command": "cd wcnptvtz"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "183952 shcvnqq.lwt"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd jqfwd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir hqb",
+            "285121 jqffsjbs.jrm",
+            "dir nhpqpdn",
+            "dir qnbq",
+            "dir qtrv",
+            "dir wspztvjr"
+        ]
+    },
+    {
+        "command": "cd hqb"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "253786 jwdv.qct",
+            "dir vbzr"
+        ]
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "153 gbh",
+            "dir gqpqqrgl",
+            "dir jzncgd",
+            "36914 nvdnsnls.mpd"
+        ]
+    },
+    {
+        "command": "cd gqpqqrgl"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "206691 dmdgcwm.bgh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd jzncgd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "122640 vrgmf.tnp"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd nhpqpdn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "86329 ntnr.lrq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "76269 fbqjmp.lbd",
+            "118968 fbqjmp.msg",
+            "190416 gfwhsb.dpc",
+            "dir lhgjrmj",
+            "dir pbv",
+            "173541 pfl",
+            "141842 srrmt.ssj"
+        ]
+    },
+    {
+        "command": "cd lhgjrmj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir ghccnw",
+            "180420 ldzcj.rwz",
+            "149356 lztgs",
+            "61792 ncgffsr",
+            "dir spmbcjhc"
+        ]
+    },
+    {
+        "command": "cd ghccnw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "253233 lztgs",
+            "56439 ntnr.lrq",
+            "19225 ntrmjf.gdb",
+            "31628 pdhhzjhm.lbd"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd spmbcjhc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir shcvnqq"
+        ]
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "122334 drjbh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd pbv"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "69436 cctsjqh.wqr",
+            "285573 ljtqddz"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qtrv"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "234568 dmwqfbwd",
+            "dir pwwsrjc",
+            "245046 qmcr",
+            "159151 qtvdjncm.rdb",
+            "dir swhzds",
+            "178915 vbzr.vgn",
+            "dir vcgv"
+        ]
+    },
+    {
+        "command": "cd pwwsrjc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "173975 bgdj.jnw",
+            "202714 jwdv.qct",
+            "270702 wggrgcvw.rtp"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd swhzds"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "114686 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vcgv"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir fbqjmp",
+            "dir qlsgtfhf",
+            "dir vbzr"
+        ]
+    },
+    {
+        "command": "cd fbqjmp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "73065 fbqjmp.jfb",
+            "dir shcvnqq"
+        ]
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "231428 shcvnqq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qlsgtfhf"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "75227 ntnr.lrq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "128050 ncgffsr.gsj",
+            "187649 vbzr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wspztvjr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir pntrhtwh",
+            "dir qnbq",
+            "dir zfdzvv"
+        ]
+    },
+    {
+        "command": "cd pntrhtwh"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "237258 cffhtr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir qnbq"
+        ]
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir ccwmftsj"
+        ]
+    },
+    {
+        "command": "cd ccwmftsj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir mfc",
+            "dir shcvnqq",
+            "12262 smpjmn"
+        ]
+    },
+    {
+        "command": "cd mfc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "198047 fbqjmp.cgh",
+            "dir gghsht",
+            "205411 wlclz"
+        ]
+    },
+    {
+        "command": "cd gghsht"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "31767 vbzr.lmb"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir lgrghwf"
+        ]
+    },
+    {
+        "command": "cd lgrghwf"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "114786 shcvnqq.vrz"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd zfdzvv"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "54298 sjp",
+            "60303 tcmhrll.htm"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir fqqsqmpr",
+            "dir gfznw",
+            "dir ncdft",
+            "dir pwmppt",
+            "dir shcvnqq",
+            "196969 vbzr",
+            "214841 vzgvr"
+        ]
+    },
+    {
+        "command": "cd fqqsqmpr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir mcdjcntr"
+        ]
+    },
+    {
+        "command": "cd mcdjcntr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "281856 ncgffsr.lbm"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd gfznw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "255657 fzrctbsj.lgf",
+            "dir ltfsndpd",
+            "175434 qnbq",
+            "31794 qnbq.zhd",
+            "13366 shcvnqq.wld",
+            "dir vcspqgn",
+            "235199 wmnjjd.bnh",
+            "dir wqpnp"
+        ]
+    },
+    {
+        "command": "cd ltfsndpd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir ncgffsr",
+            "dir zpzvdhb"
+        ]
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "9898 jjbsnj.gcg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd zpzvdhb"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "106139 lnp"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vcspqgn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "25386 dgsmmqj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wqpnp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "65905 wjtbfvjp.fmd"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncdft"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "34616 bzlpmsqc",
+            "59863 jlcg.dsg",
+            "64629 zpzjcl.fmp"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd pwmppt"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dwnqgrzm",
+            "80901 vbzr.vsg",
+            "89557 vbzr.zlz"
+        ]
+    },
+    {
+        "command": "cd dwnqgrzm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "184770 jwdv.qct",
+            "dir vbzr"
+        ]
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "210329 jlcg.dsg",
+            "62272 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "128433 gbh",
+            "30208 hjbw",
+            "200071 jlcg.dsg",
+            "dir sgcz",
+            "25045 tbhlwfqg.hts"
+        ]
+    },
+    {
+        "command": "cd sgcz"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "193481 gbh",
+            "96461 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "236171 shcvnqq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd rqdngnrq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir cprnb",
+            "280135 hshsfqwm",
+            "dir hwhm",
+            "245626 qnbq",
+            "145502 qspgdz",
+            "114231 rctg.tgt",
+            "dir zgn"
+        ]
+    },
+    {
+        "command": "cd cprnb"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "115025 twwgmmp.wbb"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd hwhm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "229849 cvm",
+            "190622 jwdv.qct",
+            "dir mscztz",
+            "dir ncgffsr"
+        ]
+    },
+    {
+        "command": "cd mscztz"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "59743 bzgpzn.bds",
+            "75184 pbdgv",
+            "181089 shcvnqq.dhq",
+            "dir zqgtr"
+        ]
+    },
+    {
+        "command": "cd zqgtr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "189142 ffnznfs.nct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dphrnjl",
+            "dir zzfztql"
+        ]
+    },
+    {
+        "command": "cd dphrnjl"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "117317 vbzr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd zzfztql"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "51096 lztgs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd zgn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir bpbzwgz",
+            "dir gqnw",
+            "75631 ljptj",
+            "283351 ljzhsw.rbs",
+            "131158 lztgs",
+            "dir ncgffsr",
+            "3136 nnpl.swf",
+            "dir shcvnqq",
+            "dir vbzr"
+        ]
+    },
+    {
+        "command": "cd bpbzwgz"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "29659 jlcg.dsg",
+            "15547 shcvnqq",
+            "117389 zprhsdfv"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd gqnw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "117091 brqwhst.jgb",
+            "88406 nzjmbrrm.hmh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "195821 gbh",
+            "dir lbzgc",
+            "226692 llqqr.spq",
+            "247989 lztgs",
+            "231909 vnctc",
+            "157973 wqnggh"
+        ]
+    },
+    {
+        "command": "cd lbzgc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "251414 ffmsbscc.dqg",
+            "46840 lztgs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dvvmhzcq",
+            "dir ncgffsr",
+            "dir sqzzllv"
+        ]
+    },
+    {
+        "command": "cd dvvmhzcq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir qnbq",
+            "70226 qvvm.rpp",
+            "dir shcvnqq"
+        ]
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "103994 bfcjrmvr.ltq",
+            "dir fbqjmp",
+            "dir fcs",
+            "177152 gjghvvw.bzg",
+            "dir lbfjqh",
+            "78412 ntnr.lrq",
+            "dir sgjtm",
+            "286995 shcvnqq",
+            "51750 wmq.vjj"
+        ]
+    },
+    {
+        "command": "cd fbqjmp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "267212 qhhb.zvg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd fcs"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "272051 znhsswwh.mjj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd lbfjqh"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "261487 jlcg.dsg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd sgjtm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dnznpj",
+            "dir jzsntnbs",
+            "dir nqgcbd",
+            "dir vdg"
+        ]
+    },
+    {
+        "command": "cd dnznpj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "173938 hrp.cjq",
+            "180485 qnbq.thj",
+            "215400 ztvt.wnt"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd jzsntnbs"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "67448 gpvgh.psg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd nqgcbd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "196250 fbqjmp.qcv",
+            "198482 jlcg.dsg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vdg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "257343 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "156769 fbqjmp.hdb"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "205473 fbqjmp",
+            "113067 gsvznzz.qtv"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd sqzzllv"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "146018 ddvjgswr.gsq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir vbzr"
+        ]
+    },
+    {
+        "command": "cd vbzr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "266721 mhlfqpbs.pwr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir slnvdd"
+        ]
+    },
+    {
+        "command": "cd slnvdd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "90875 pzqv.gnv",
+            "207484 rbrj.vcr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vsd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dfb",
+            "dir fqqnsph",
+            "dir gbwdhjr",
+            "18837 jwdv.qct",
+            "dir ncgffsr",
+            "dir qnbq",
+            "dir rjzjrbvs"
+        ]
+    },
+    {
+        "command": "cd dfb"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir bpst",
+            "66174 jwdv.qct",
+            "dir lcwhfzjw"
+        ]
+    },
+    {
+        "command": "cd bpst"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir nqftnn",
+            "dir pcvgnvnp"
+        ]
+    },
+    {
+        "command": "cd nqftnn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir bbrsg",
+            "dir gjfc",
+            "dir hfql",
+            "dir shcvnqq",
+            "139226 shcvnqq.sbd",
+            "dir ssnjqbg"
+        ]
+    },
+    {
+        "command": "cd bbrsg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "73382 vjcf"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd gjfc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "164310 gbh",
+            "126316 mmqnrc",
+            "133899 ntnr.lrq",
+            "102615 rgfhrt"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd hfql"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "14685 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "119597 lztgs",
+            "34165 shcvnqq.zcg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ssnjqbg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "77678 gqdfbqj.tmj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd pcvgnvnp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "21250 lhq",
+            "266619 qps.crp"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd lcwhfzjw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir bhdnnbvm",
+            "dir fdnsvfh",
+            "12002 jlcg.dsg",
+            "dir lfdbzfl",
+            "46488 ncgffsr",
+            "233704 nthcv.pnc",
+            "204660 ntnr.lrq",
+            "172482 shcvnqq",
+            "dir tlw"
+        ]
+    },
+    {
+        "command": "cd bhdnnbvm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "37204 fwrdjw.zvv",
+            "3248 ntnr.lrq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd fdnsvfh"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "20765 jlfgnwb.szl"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd lfdbzfl"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir fspntmld",
+            "183925 jlcg.dsg"
+        ]
+    },
+    {
+        "command": "cd fspntmld"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "251568 lztgs",
+            "146785 ncgffsr.mmj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd tlw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir qqn"
+        ]
+    },
+    {
+        "command": "cd qqn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "39232 lprqfwf"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd fqqnsph"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "132318 lztgs",
+            "103863 ntnr.lrq",
+            "18793 tngbs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd gbwdhjr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "253798 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "110767 blctz.tqz",
+            "dir csfssn",
+            "dir dbbfz",
+            "dir hjgm",
+            "dir hwd",
+            "249139 rgcz.gnz",
+            "dir wgw"
+        ]
+    },
+    {
+        "command": "cd csfssn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dlcw",
+            "dir jqspd",
+            "119066 mlwlc.mql",
+            "dir ncgffsr",
+            "203475 nwnbsc",
+            "143071 qnbq",
+            "116623 qvw.gjz",
+            "83637 whm.cdg"
+        ]
+    },
+    {
+        "command": "cd dlcw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "232066 gqllsd.qpl",
+            "1046 mfsh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd jqspd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "251070 mthmm.bmh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "83639 ntnr.lrq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd dbbfz"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "112576 jgqf.qmj",
+            "148549 jlcg.dsg",
+            "144811 jwdv.qct",
+            "23726 ntnr.lrq",
+            "123802 pgdjchrf.vnm",
+            "dir vzfbzbcp"
+        ]
+    },
+    {
+        "command": "cd vzfbzbcp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "39375 fbqq",
+            "31914 jwdv.qct",
+            "165999 lztgs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd hjgm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir ljqjtdmf",
+            "100534 mdw",
+            "219057 qnbq",
+            "97164 rzjwmvdw.vlv",
+            "dir shcvnqq",
+            "83034 vbzr"
+        ]
+    },
+    {
+        "command": "cd ljqjtdmf"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "23716 dmslzv.qns",
+            "159519 gbh",
+            "dir hlvbmpg",
+            "dir nlqqshp",
+            "247315 vqt",
+            "dir wlsjnthg"
+        ]
+    },
+    {
+        "command": "cd hlvbmpg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "54421 jlcg.dsg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd nlqqshp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir rvzprwhp"
+        ]
+    },
+    {
+        "command": "cd rvzprwhp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "35024 lztgs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wlsjnthg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "29178 gnrlgb.bgh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "150311 nvrd"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd hwd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir jzqtmm"
+        ]
+    },
+    {
+        "command": "cd jzqtmm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "103547 jtvdt.jtn"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd wgw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir mmhlt"
+        ]
+    },
+    {
+        "command": "cd mmhlt"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir cmwjh"
+        ]
+    },
+    {
+        "command": "cd cmwjh"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "243844 qnbq.shn"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir dhfng",
+            "dir fbqjmp",
+            "16855 rgrszmrh.lbl",
+            "dir rqjs",
+            "dir shcvnqq",
+            "38322 vhvrmq"
+        ]
+    },
+    {
+        "command": "cd dhfng"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "132537 gwngz.hpt",
+            "dir lbccc",
+            "182221 ntnr.lrq"
+        ]
+    },
+    {
+        "command": "cd lbccc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "282448 fbqjmp.njj",
+            "267049 gbh",
+            "dir jtj",
+            "dir ntnn",
+            "dir vbfgmmvw",
+            "128500 vbzr"
+        ]
+    },
+    {
+        "command": "cd jtj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir hvmlh"
+        ]
+    },
+    {
+        "command": "cd hvmlh"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "131886 dmww.sqc"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ntnn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "109064 lgh.bbf",
+            "dir wfgdd",
+            "53862 wflv.ngc"
+        ]
+    },
+    {
+        "command": "cd wfgdd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "58756 gbh",
+            "dir lgzlndn",
+            "dir qnbq"
+        ]
+    },
+    {
+        "command": "cd lgzlndn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "190415 dwsqvczd"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "240922 znjhmhp.ngt"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vbfgmmvw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "271827 vbzr.dfl"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd fbqjmp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "144993 gvpnf",
+            "150786 jwdv.qct",
+            "49025 pdcwwtt.grs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd rqjs"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir bwnzs",
+            "119390 jlcg.dsg",
+            "172042 vjzg"
+        ]
+    },
+    {
+        "command": "cd bwnzs"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "108537 hzzgm.zrn",
+            "38699 qgfqbfr",
+            "dir vhvcfhvr"
+        ]
+    },
+    {
+        "command": "cd vhvcfhvr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "2783 jwdv.qct",
+            "209933 mgj.nvj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "257312 fbqjmp",
+            "193792 msdqtrpn.grn",
+            "98165 rgm"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd rjzjrbvs"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir ftrlfg",
+            "dir mtrnl",
+            "dir rdpbbd",
+            "dir shcvnqq",
+            "dir vztnr"
+        ]
+    },
+    {
+        "command": "cd ftrlfg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "196590 cjjvwjb",
+            "dir ffsvh",
+            "70123 ldnbc",
+            "dir lwnfc",
+            "106499 lztgs",
+            "dir ncgffsr",
+            "dir tfdctq",
+            "dir vgthdbf",
+            "80852 zndjt.wtl"
+        ]
+    },
+    {
+        "command": "cd ffsvh"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "20370 dvdftpvb.qcj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd lwnfc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir fgmd",
+            "dir gmdjt",
+            "274331 hmgjmq.vbz",
+            "9726 qjfdqbf.dfj",
+            "dir ssnncn"
+        ]
+    },
+    {
+        "command": "cd fgmd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "280608 jwdv.qct",
+            "201912 rqtbw.shd"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd gmdjt"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "202107 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ssnncn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "140697 jwdv.qct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ncgffsr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "227389 fpdfqp.fzl",
+            "164141 hzhrrvpm.hlf"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd tfdctq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir cttmzlw",
+            "dir ntvtm",
+            "257094 qnbq.zjm",
+            "284928 shcvnqq"
+        ]
+    },
+    {
+        "command": "cd cttmzlw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "142651 rptschdv.mgv"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd ntvtm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "176269 dhpj",
+            "88278 gbh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vgthdbf"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "130998 ncgffsr.mnf"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd mtrnl"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "86144 djwnvdj",
+            "122600 gsdpwh.cmb"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd rdpbbd"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "177384 gbh",
+            "dir gstfdm",
+            "dir qnbq",
+            "dir qtj",
+            "260302 vbzr.dhq"
+        ]
+    },
+    {
+        "command": "cd gstfdm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "23734 mnwzrm.hzr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "51705 gmt",
+            "205537 ntnr.lrq",
+            "94469 vbzr.bvj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qtj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir tls",
+            "dir zvpcfhg"
+        ]
+    },
+    {
+        "command": "cd tls",
+        "results": []
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir chvgwnt",
+            "dir jvgnmfjw"
+        ]
+    },
+    {
+        "command": "cd chvgwnt"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir rbw",
+            "dir srhj"
+        ]
+    },
+    {
+        "command": "cd rbw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "174372 btjd.bvv",
+            "272995 cnqqh.dfc"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd srhj"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "134054 qwzpr"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd jvgnmfjw"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir hdcwbwgm",
+            "236775 sdc"
+        ]
+    },
+    {
+        "command": "cd hdcwbwgm"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "113707 ntnr.lrq"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd zvpcfhg"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir lsq"
+        ]
+    },
+    {
+        "command": "cd lsq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "220331 jlcg.dsg"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd shcvnqq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir cmwrqgfq",
+            "258731 fbqjmp.fvn",
+            "277895 gbh",
+            "64973 jlcg.dsg",
+            "77978 jwdv.qct",
+            "dir lttjrdn",
+            "dir sqgnhc"
+        ]
+    },
+    {
+        "command": "cd cmwrqgfq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "81199 gbh"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd lttjrdn"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "23355 gbh",
+            "148263 hcgfqdw",
+            "57338 hjwr",
+            "166510 jbvnmcj"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd sqgnhc"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "dir glswqrdp",
+            "dir qnbq"
+        ]
+    },
+    {
+        "command": "cd glswqrdp"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "225761 ncgffsr.vct"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd qnbq"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "62861 pdqz.wzs"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vztnr"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "189943 wvtlfsp"
+        ]
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd .."
+    },
+    {
+        "command": "cd vtzvf"
+    },
+    {
+        "command": "ls",
+        "results": [
+            "43248 jwdv.qct"
+        ]
+    }
+]
