@@ -10,7 +10,10 @@ array = []
 i = 0
 
 for line in f:
-    print(line)
+    array.append([
+        line[0],
+        int(line[1:])
+    ])
 
 f.close()
 f = open("input.json", "w")

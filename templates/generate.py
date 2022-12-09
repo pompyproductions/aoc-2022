@@ -11,6 +11,11 @@ def copyTemplate(name):
     target.close()
     template.close()
 
+def makeExecutable(path):
+    mode = os.stat(path).st_mode
+    mode |= (mode & 0o444) >> 2    # copy R bits to X
+    os.chmod(path, mode)
+
 def generate():
     if not os.path.exists("../day-%s" % sys.argv[1]):
         os.mkdir("../day-%s" % sys.argv[1])
@@ -22,6 +27,8 @@ def generate():
     template.close()
 
     copyTemplate("parse.py")
+    makeExecutable("../day-%s/parse.py" % sys.argv[1])
     copyTemplate("script.js")
+
 
 generate()
