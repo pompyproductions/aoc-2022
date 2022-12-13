@@ -1,7 +1,4 @@
-let input;
-let step = 0;
-let map;
-let lastVisited = [];
+let input, step, map, lastVisited;
 
 class MapNode {
     isVisited = false;
@@ -20,9 +17,7 @@ class MapNode {
         if (y !== map.length - 1) nodes.push(map[y+1][x]);
         if (x !== 0) nodes.push(map[y][x-1]);
         if (x !== map[y].length - 1) nodes.push(map[y][x+1]);
-        console.log(nodes);
         return nodes.filter(elem => {
-            console.log(elem.elevation - currentElev);
             return !elem.isVisited 
             && elem.elevation - currentElev <= 1
         })
@@ -34,7 +29,15 @@ class MapNode {
     }
 }
 
-function updateMap() {
+async function main() {
+    await getInput("input.json");
+    await solve();
+    await getInput("test-input.json");
+    await initializeMap();
+    await updateMapDisplay();
+}
+
+function updateMapDisplay() {
     const container = document.querySelector(".map-container");
     Array.from(container.children).forEach(elem => elem.remove())
     for (const column of map) {
@@ -57,18 +60,15 @@ function updateMap() {
     `;
 }
 
-async function getInput() {
-    if (!input) {
-        const response = await fetch('./test-input.json');
-        console.log("fetching input");
-        input = await response.json(); 
-    }
-    initializeMap();
-    updateMap();
+async function getInput(filename) {
+    const response = await fetch(`./${filename}`);
+    input = await response.json(); 
 }
 
 function initializeMap() {
     map = [];
+    lastVisited = [];
+    step = 0;
     for (const line of input) {
         const level = [];
         for (let i = 0; i < line.length; i++) {
@@ -86,7 +86,6 @@ function initializeMap() {
         }
         map.push(level);
     }
-    updateMap();
 }
 
 function next() {
@@ -104,16 +103,37 @@ function next() {
         })
     }
     lastVisited = nextNodes;
-    updateMap();
+    updateMapDisplay();
 }
 
 function reset() {
     step = 0;
     lastVisited = [];
     initializeMap();
-    updateMap();
+    updateMapDisplay();
 }
 
+async function solve() {
+    initializeMap();
+    let isGoalFound = false;
+    while (!isGoalFound) {
+        const nextNodes = [];
+        step++;
+        for (const node of lastVisited) {
+            node.isNext = false;
+            const neighbors = node.getAdjacentNodes(map);
+            neighbors.forEach(item => {
+                item.value = step;
+                nextNodes.push(item);
+            })
+        }
+        lastVisited = nextNodes;
+        if (lastVisited.find(elem => elem.isGoal)) {
+            isGoalFound = true;
+        }
+    }
+    console.log("Part 1:", step);
+}
 
 
 
@@ -183,7 +203,6 @@ function reset() {
 //     // }
 // }
 
-// solve();
 document.getElementById("next").addEventListener("click", next)
 document.getElementById("reset").addEventListener("click", reset)
-getInput();
+main();

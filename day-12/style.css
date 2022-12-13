@@ -1,5 +1,5 @@
 main {
-    place-items: center;
+    place-items: flex-start;
 }
 
 .map-container {
@@ -23,6 +23,11 @@ main {
 }
 .map-container .next {
     color: inherit;
+}
+
+.button-container {
+    display: flex;
+    gap: 0.5rem;
 }
 
 button {
