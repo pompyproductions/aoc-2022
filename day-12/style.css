@@ -1,0 +1,45 @@
+main {
+    place-items: center;
+}
+
+.map-container {
+    --grid-columns: 8;
+    display: grid;
+    grid-auto-rows: 2.4rem;
+    grid-template-columns: repeat(var(--grid-columns), 2.4rem);
+    place-items: center;
+}
+
+.map-container p {
+    color: #2a4fb9;
+    color: var(--red);
+    transition: 0.3s;
+}
+.map-container .goal {
+    color: yellow;
+}
+.map-container .unvisited {
+    color: #404040;
+}
+.map-container .next {
+    color: inherit;
+}
+
+button {
+    font-size: .9rem;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    background: transparent;
+    color: var(--red);
+    border-radius: 0.5rem;
+    border: 0.15rem solid currentColor;
+    transition: color 0.12s;
+}
+
+button:hover {
+    color: inherit;
+}
+
+button:active {
+    transform: translateY(1px);
+}
