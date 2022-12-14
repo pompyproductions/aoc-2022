@@ -7,9 +7,10 @@ async function solve() {
         console.log("fetching input");
         input = await response.json(); 
     }
-    for (let i = 0; i < 10; i++) {
-        console.log(input[i])
-    }
+    console.log(input[0])
+    // for (let i = 0; i < 10; i++) {
+    //     console.log(input[i])
+    // }
 }
 
 solve();
