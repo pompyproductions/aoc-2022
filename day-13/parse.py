@@ -12,7 +12,7 @@ def parseInput(input_file):
         if line:
             arr, depth = constructArray(line)
             # delayPrint("nesting level: " + str(depth))
-        array.append(arr)
+            array.append(arr)
 
     source.close()
     return array
